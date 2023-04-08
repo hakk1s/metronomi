@@ -1,0 +1,80 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-family: Sans-serif;
+	background: #F2F2F2;
+}
+
+button {
+	background: #4CAF50;
+	border-radius: 2px;
+	transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #357a38;
+    cursor: pointer;
+}
+
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	min-height: 120px;
+	text-transform: uppercase;
+}
+
+header h1{
+	margin: 0 auto;
+	font-size: 70px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#container {
+	width: 66%;
+	min-height: 100%;
+	margin-top: 30px;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	margin: 0 auto;
+	padding: 10px;
+	background: #fff;
+}
+
+select, input {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin: 0 auto;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	min-height: 100px;
+}
+
+
+footer h4 {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* Responsiivisuus 
+@media screen and (max-width: 960px) {
+	#container {
+    	width: 100%;
+    }
+}*/

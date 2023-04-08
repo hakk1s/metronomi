@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Metronomi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+<header>
+<h1>Metronomi</h1>
+</header>
+
+<div id="container">
+
+<select id="sound">
+	<option value="files/click.mp3">Klikki</option>
+	<option value="files/bassdrum.mp3">Bassorumpu</option>
+</select>
+<br/>
+<input type="range" id="tempo" min="60" max="300" value="100"><br/>
+<button id="start">Aloita</button>
+<button id="stop">Pysäytä</button>
+
+<p id="showTempo"></p>
+
+<p id="info"></p>
+
+</div>
+
+<footer><h4>Hakkis 2017</h4></footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
